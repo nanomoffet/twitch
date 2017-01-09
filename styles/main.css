@@ -5987,5 +5987,101 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
   .hidden-print {
     display: none !important; } }
 
-p {
-  color: red; }
+.streamerHeader {
+  margin-top: 0;
+  padding-top: 0;
+  color: #fff;
+  font-size: 2rem;
+  height: 80px;
+  width: 100%;
+  text-align: center;
+  background-image: linear-gradient(bottom, #4984b4 0%, #619bcb 100%);
+  border-radius: 0 0 5px 5px;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0 3px 0 #2b638f, 0 3px 15px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 0 3px rgba(255, 255, 255, 0.5); }
+  .streamerHeader h1 {
+    margin-top: 0; }
+  .streamerHeader .filters {
+    height: 20px; }
+  .streamerHeader li .selectedFilter {
+    color: #bbb; }
+  .streamerHeader li a {
+    color: #fff; }
+    .streamerHeader li a:hover {
+      cursor: pointer;
+      text-decoration: none;
+      color: #bbb;
+      transition: color 0.3s ease; }
+
+.streamer-container {
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 20px; }
+
+.streamer-list {
+  list-style: none;
+  width: 100%;
+  margin: 0;
+  padding: 0; }
+  .streamer-list li {
+    display: block;
+    padding-left: 0;
+    margin-left: 0;
+    width: 100%; }
+
+.button {
+  text-decoration: none;
+  width: 100%;
+  margin-bottom: 10px;
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  background-color: #538fbe;
+  padding: 20px 70px;
+  font-size: 24px;
+  border: 1px solid #2d6898;
+  background-image: linear-gradient(bottom, #4984b4 0%, #619bcb 100%);
+  border-radius: 5px;
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 6px 0px #2b638f, 0px 3px 15px rgba(0, 0, 0, 0.4), inset 0px 1px 0px rgba(255, 255, 255, 0.3), inset 0px 0px 3px rgba(255, 255, 255, 0.5); }
+
+.button:hover,
+.button:active,
+.button:focus {
+  text-decoration: none;
+  color: #fff;
+  background-image: linear-gradient(bottom, #589acc 0%, #5a96c7 100%); }
+
+.button:active {
+  box-shadow: 0px 2px 0px #2b638f, 0px 1px 6px rgba(0, 0, 0, 0.4), inset 0px 1px 0px rgba(255, 255, 255, 0.3), inset 0px 0px 3px rgba(255, 255, 255, 0.5);
+  transform: translate(0, 4px);
+  transition: all .2s ease-in-out; }
+
+.circle {
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  margin-right: 15px;
+  border-radius: 50%; }
+
+.online {
+  border: 1px solid green;
+  background: green; }
+
+.offline {
+  border: 1px solid red;
+  background: red; }
+
+.profilePicture {
+  border: 1px solid #000;
+  border-radius: 50%;
+  margin-right: 15px; }
+
+.description {
+  display: inline-block;
+  font-style: italic;
+  font-weight: normal;
+  text-align: center;
+  width: 60%;
+  margin: auto; }

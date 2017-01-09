@@ -1,2 +1,6 @@
 node_modules
 dist
+.idea/inspectionProfiles/
+.idea/modules.xml
+.idea/twitch.iml
+.idea/vcs.xml
